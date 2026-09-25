@@ -1,0 +1,46 @@
+{
+  "placeholder": true,
+  "_about": "PLACEHOLDER demo settings and sample questions. Replace questions with your real stage script. 'categories' pins which knowledge shelf tiles light up in 'relevant pages only' mode.",
+  "title": "Token Wars",
+  "subtitle": "What does your AI answer really cost?",
+  "model": "claude-sonnet-5",
+  "maxTokens": 4096,
+  "effort": "low",
+  "timeoutSeconds": 45,
+  "prewarmCacheOnToggle": true,
+  "projection": {
+    "label": "At 50,000 questions a month",
+    "questionsPerMonth": 50000
+  },
+  "defaults": {
+    "caching": true,
+    "promptVersion": "before",
+    "contextMode": "full"
+  },
+  "questions": [
+    {
+      "id": "q-completion",
+      "short": "Best completion rate?",
+      "text": "Which campaign had the best completion rate, and why do you think it did?",
+      "categories": ["ctv-measurement", "campaign-reporting"]
+    },
+    {
+      "id": "q-cpm",
+      "short": "Are we overpaying?",
+      "text": "Which campaigns are paying too much per thousand impressions compared with the others?",
+      "categories": ["pricing-cpm", "inventory-publishers"]
+    },
+    {
+      "id": "q-reach",
+      "short": "Too many repeats?",
+      "text": "Are any campaigns showing the same ad to the same households too many times?",
+      "categories": ["audience-reach", "ctv-measurement"]
+    },
+    {
+      "id": "q-budget",
+      "short": "Where to move budget?",
+      "text": "If we could move ten percent of total spend next quarter, where should it go?",
+      "categories": ["campaign-reporting", "attribution", "pricing-cpm"]
+    }
+  ]
+}

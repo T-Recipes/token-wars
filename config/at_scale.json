@@ -1,0 +1,68 @@
+{
+  "_about": "Stage only; never shipped in the giveaway. The At Scale case study table. documents and tokens are per knowledge department (tokens estimated at 4 characters per token from file sizes). Costs are worked out on the page from config/pricing.json: every question sends the whole department, 'questions' questions per department, on 'model'. Cached cost is one cache write plus reads for the rest.",
+  "model": "claude-fable-5-1",
+  "questions": 1000,
+  "firstColumn": "Intelligence",
+  "rows": [
+    {
+      "name": "Media",
+      "documents": 28770,
+      "tokens": 24012370
+    },
+    {
+      "name": "Legal",
+      "documents": 5840,
+      "tokens": 6353880
+    },
+    {
+      "name": "Finance",
+      "documents": 5930,
+      "tokens": 4883980
+    },
+    {
+      "name": "Analytics",
+      "documents": 5570,
+      "tokens": 4411070
+    },
+    {
+      "name": "Strategy",
+      "documents": 4630,
+      "tokens": 3970740
+    },
+    {
+      "name": "Sales",
+      "documents": 4960,
+      "tokens": 3965220
+    },
+    {
+      "name": "Partnerships",
+      "documents": 4710,
+      "tokens": 3940770
+    },
+    {
+      "name": "Operations",
+      "documents": 3000,
+      "tokens": 2240490
+    },
+    {
+      "name": "Marketing",
+      "documents": 2360,
+      "tokens": 1929030
+    },
+    {
+      "name": "Technology",
+      "documents": 1130,
+      "tokens": 814300
+    },
+    {
+      "name": "Research",
+      "documents": 470,
+      "tokens": 444850
+    },
+    {
+      "name": "Creative",
+      "documents": 360,
+      "tokens": 317580
+    }
+  ]
+}

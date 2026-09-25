@@ -1,0 +1,18 @@
+# Secrets: never commit
+.env
+.env.*
+!.env.example
+
+# Build and check output
+dist/
+artifacts/
+node_modules/
+
+.DS_Store
+
+# Real content dropped in locally: keep out of git
+prompt_before_raw.txt
+
+# Python bytecode cache from scripts/cache-cost-test.py
+__pycache__/
+*.pyc

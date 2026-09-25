@@ -1,0 +1,71 @@
+{
+  "_about": "USD per million tokens, standard (non-batch) Claude API pricing, from platform.claude.com/docs/en/about-claude/pricing. verifiedOn is shown on screen: update it whenever you re-check the prices. cacheWrite5m is the 5-minute cache write price. minCacheableTokens is the smallest instruction block the model will reuse. supportsEffort: whether the demo sends output_config.effort for this model (omitted when false). picker lists the three models in the AI model dropdown, cheapest first; the dropdown shows each model's label.",
+  "verifiedOn": "2026-09-22",
+  "picker": [
+    {
+      "model": "claude-sonnet-5"
+    },
+    {
+      "model": "claude-opus-5-5"
+    },
+    {
+      "model": "claude-fable-5-1"
+    }
+  ],
+  "models": {
+    "claude-haiku-4-5": {
+      "label": "Claude Haiku 4.5",
+      "input": 1,
+      "output": 5,
+      "cacheWrite5m": 1.25,
+      "cacheRead": 0.1,
+      "minCacheableTokens": 4096,
+      "supportsEffort": false
+    },
+    "claude-sonnet-5": {
+      "label": "Claude Sonnet 5",
+      "input": 2,
+      "output": 10,
+      "cacheWrite5m": 2.5,
+      "cacheRead": 0.2,
+      "minCacheableTokens": 1024,
+      "supportsEffort": true
+    },
+    "claude-fable-5-1": {
+      "label": "Claude Fable 5.1",
+      "input": 10,
+      "output": 50,
+      "cacheWrite5m": 12.5,
+      "cacheRead": 0.25,
+      "minCacheableTokens": 512,
+      "supportsEffort": true
+    },
+    "claude-opus-5-5": {
+      "label": "Claude Opus 5.5",
+      "input": 4,
+      "output": 20,
+      "cacheWrite5m": 5,
+      "cacheRead": 0.2,
+      "minCacheableTokens": 512,
+      "supportsEffort": true
+    },
+    "claude-sonnet-4-6": {
+      "label": "Claude Sonnet 4.6",
+      "input": 3,
+      "output": 15,
+      "cacheWrite5m": 3.75,
+      "cacheRead": 0.3,
+      "minCacheableTokens": 1024,
+      "supportsEffort": false
+    },
+    "claude-opus-4-8": {
+      "label": "Claude Opus 4.8",
+      "input": 5,
+      "output": 25,
+      "cacheWrite5m": 6.25,
+      "cacheRead": 0.5,
+      "minCacheableTokens": 1024,
+      "supportsEffort": true
+    }
+  }
+}

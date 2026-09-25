@@ -1,0 +1,82 @@
+{
+  "placeholder": true,
+  "_about": "PLACEHOLDER knowledge center. fileCount and tokenCount are the numbers shown on the shelf tiles; replace them with your real library totals. 'files' are the pages actually sent to the model and must live under knowledge/.",
+  "libraryName": "Knowledge Center",
+  "totalFiles": 412,
+  "totalTokens": 1840000,
+  "defaultRelevant": ["campaign-reporting"],
+  "categories": [
+    {
+      "id": "ctv-measurement",
+      "name": "CTV Measurement",
+      "blurb": "How views are counted",
+      "fileCount": 64,
+      "tokenCount": 298000,
+      "keywords": ["completion", "complete", "completed", "view", "views", "viewed", "watch", "measurement", "vcr"],
+      "files": ["knowledge/ctv-measurement.md"]
+    },
+    {
+      "id": "audience-reach",
+      "name": "Audience & Reach",
+      "blurb": "Who saw it, how often",
+      "fileCount": 58,
+      "tokenCount": 251000,
+      "keywords": ["reach", "frequency", "households", "household", "audience", "repeats", "same ad", "times"],
+      "files": ["knowledge/audience-reach.md"]
+    },
+    {
+      "id": "pricing-cpm",
+      "name": "Pricing & CPM",
+      "blurb": "What each view costs",
+      "fileCount": 41,
+      "tokenCount": 176000,
+      "keywords": ["cpm", "price", "pricing", "cost", "paying", "expensive", "thousand", "overpaying"],
+      "files": ["knowledge/pricing-cpm.md"]
+    },
+    {
+      "id": "brand-safety",
+      "name": "Brand Safety",
+      "blurb": "Where ads may not run",
+      "fileCount": 37,
+      "tokenCount": 162000,
+      "keywords": ["safety", "safe", "unsafe", "block", "blocklist", "suitability"],
+      "files": ["knowledge/brand-safety.md"]
+    },
+    {
+      "id": "creative-guidelines",
+      "name": "Creative Guidelines",
+      "blurb": "Ad length and format rules",
+      "fileCount": 52,
+      "tokenCount": 214000,
+      "keywords": ["creative", "ad length", "seconds", "format", "spot", "spots"],
+      "files": ["knowledge/creative-guidelines.md"]
+    },
+    {
+      "id": "campaign-reporting",
+      "name": "Campaign Reporting",
+      "blurb": "How results are reported",
+      "fileCount": 71,
+      "tokenCount": 327000,
+      "keywords": ["campaign", "campaigns", "report", "reporting", "results", "performance", "best", "worst", "quarter"],
+      "files": ["knowledge/campaign-reporting.md"]
+    },
+    {
+      "id": "attribution",
+      "name": "Attribution",
+      "blurb": "Did the ad cause the sale?",
+      "fileCount": 46,
+      "tokenCount": 219000,
+      "keywords": ["attribution", "lift", "conversion", "conversions", "sales", "budget", "roi", "move"],
+      "files": ["knowledge/attribution.md"]
+    },
+    {
+      "id": "inventory-publishers",
+      "name": "Inventory & Publishers",
+      "blurb": "Where the ads ran",
+      "fileCount": 43,
+      "tokenCount": 193000,
+      "keywords": ["publisher", "publishers", "inventory", "streaming", "channel", "channels", "premium"],
+      "files": ["knowledge/inventory-publishers.md"]
+    }
+  ]
+}

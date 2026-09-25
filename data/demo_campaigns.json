@@ -1,0 +1,16 @@
+{
+  "placeholder": true,
+  "_about": "PLACEHOLDER. Invented brands and invented CTV metrics for the demo. Replace with real (approved) campaign data.",
+  "campaigns": [
+    { "brand": "Fernhollow Sparkling Water", "campaign": "Summer Fizz", "quarter": "Q2 2026", "impressions": 4200000, "householdsReached": 1310000, "frequency": 3.2, "completionRate": 0.94, "cpm": 28.5, "spend": 119700, "avgSecondsWatched": 28.1, "adLengthSeconds": 30, "topPublisher": "Premium streaming app A" },
+    { "brand": "Juniper & Vale Outdoor", "campaign": "Trail Season", "quarter": "Q2 2026", "impressions": 2900000, "householdsReached": 640000, "frequency": 4.5, "completionRate": 0.88, "cpm": 31.0, "spend": 89900, "avgSecondsWatched": 26.4, "adLengthSeconds": 30, "topPublisher": "Sports streaming app B" },
+    { "brand": "Brightwell Insurance", "campaign": "Peace of Mind", "quarter": "Q2 2026", "impressions": 6100000, "householdsReached": 1020000, "frequency": 6.0, "completionRate": 0.81, "cpm": 24.0, "spend": 146400, "avgSecondsWatched": 12.2, "adLengthSeconds": 15, "topPublisher": "Free ad-supported channel C" },
+    { "brand": "Kestrel Motors", "campaign": "Open Road", "quarter": "Q2 2026", "impressions": 7400000, "householdsReached": 2050000, "frequency": 3.6, "completionRate": 0.72, "cpm": 38.0, "spend": 281200, "avgSecondsWatched": 21.6, "adLengthSeconds": 30, "topPublisher": "Premium streaming app A" },
+    { "brand": "Lumen Coffee Co.", "campaign": "First Cup", "quarter": "Q2 2026", "impressions": 1800000, "householdsReached": 720000, "frequency": 2.5, "completionRate": 0.91, "cpm": 22.0, "spend": 39600, "avgSecondsWatched": 13.7, "adLengthSeconds": 15, "topPublisher": "News streaming app D" },
+    { "brand": "Harborline Cruises", "campaign": "Blue Horizons", "quarter": "Q1 2026", "impressions": 3300000, "householdsReached": 910000, "frequency": 3.6, "completionRate": 0.86, "cpm": 33.5, "spend": 110550, "avgSecondsWatched": 25.8, "adLengthSeconds": 30, "topPublisher": "Travel channel E" },
+    { "brand": "Pixelnest Games", "campaign": "Level Up", "quarter": "Q2 2026", "impressions": 5200000, "householdsReached": 690000, "frequency": 7.5, "completionRate": 0.69, "cpm": 19.5, "spend": 101400, "avgSecondsWatched": 10.4, "adLengthSeconds": 15, "topPublisher": "Gaming channel F" },
+    { "brand": "Oakridge Home", "campaign": "Make It Yours", "quarter": "Q2 2026", "impressions": 2500000, "householdsReached": 830000, "frequency": 3.0, "completionRate": 0.9, "cpm": 26.0, "spend": 65000, "avgSecondsWatched": 27.0, "adLengthSeconds": 30, "topPublisher": "Lifestyle channel G" },
+    { "brand": "Solstice Skincare", "campaign": "Glow Daily", "quarter": "Q2 2026", "impressions": 3900000, "householdsReached": 1180000, "frequency": 3.3, "completionRate": 0.84, "cpm": 41.0, "spend": 159900, "avgSecondsWatched": 12.6, "adLengthSeconds": 15, "topPublisher": "Premium streaming app A" },
+    { "brand": "Tidewater Bank", "campaign": "Grow Local", "quarter": "Q1 2026", "impressions": 2100000, "householdsReached": 560000, "frequency": 3.8, "completionRate": 0.79, "cpm": 29.0, "spend": 60900, "avgSecondsWatched": 23.7, "adLengthSeconds": 30, "topPublisher": "News streaming app D" }
+  ]
+}

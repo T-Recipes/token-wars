@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Watch my app - Token Wars</title>
+<link rel="stylesheet" href="/shared/stage.css">
+<link rel="stylesheet" href="/dashboard.css">
+</head>
+<body>
+  <div class="w-head">
+    <div>
+      <h1 class="w-title">Watch my app</h1>
+      <div class="w-sub">A live meter for your own project's real Anthropic calls. Point your app at <code class="w-code" id="w-url">this address</code> instead of <code class="w-code">api.anthropic.com</code>, and every call it makes shows up here as it happens.</div>
+    </div>
+    <button class="w-reset" id="w-reset" type="button">Reset</button>
+  </div>
+
+  <div class="w-cards">
+    <div class="w-card"><div class="label">Calls seen</div><div class="value" id="w-calls">0</div><div class="sub">since this proxy started</div></div>
+    <div class="w-card"><div class="label">Spent (with caching)</div><div class="value" id="w-total">$0.00</div><div class="sub" id="w-tokens">0 tokens</div></div>
+    <div class="w-card"><div class="label">Would cost without caching</div><div class="value" id="w-uncached">$0.00</div></div>
+    <div class="w-card good"><div class="label">Saved by caching</div><div class="value" id="w-savings">\u2014</div></div>
+  </div>
+
+  <div class="w-list-panel">
+    <div class="w-list-title">Real calls, newest first</div>
+    <div class="w-row head"><span>Model</span><span>Tokens (in / out)</span><span>Cache read</span><span>Cost</span><span>Latency</span><span>Time</span></div>
+    <div id="w-rows"></div>
+    <div class="w-empty" id="w-empty">No calls yet. Point your app's Anthropic client at the address above and this page will update as it makes real calls.</div>
+  </div>
+
+  <script src="/dashboard.js"></script>
+</body>
+</html>

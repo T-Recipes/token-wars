@@ -1,0 +1,44 @@
+{
+  "_about": "Text for the Get started tab on the stage page. Plain language only. download.text is where to tell people how to get the kit (a short web address works well). The setup instructions are what attendees paste into their AI coding tool. Any text field may hold a blank line (\\n\\n) to break it into more than one paragraph. resources.items each need a matching QR image checked into assets/ (see scripts/make-qr.js).",
+  "title": "Measure your own AI instructions",
+  "subtitle": "The same meter, on your computer, with your own instructions and your own key.",
+  "download": {
+    "title": "Download the file",
+    "text": "Download token-wars-giveaway.zip from the link we share after this session, then double-click it to unzip. You get a folder called token-wars-giveaway."
+  },
+  "tools": [
+    {
+      "id": "cursor",
+      "name": "Cursor",
+      "open": "Open Cursor. Choose File, then Open Folder, and pick the token-wars-giveaway folder. Then open the chat panel on the right."
+    },
+    {
+      "id": "codex",
+      "name": "Codex",
+      "open": "Open the ChatGPT desktop app and switch to Codex at the top left. Start a new chat, click the folder icon, and pick the token-wars-giveaway folder."
+    },
+    {
+      "id": "claude-code",
+      "name": "Claude Code",
+      "open": "Open the Claude desktop app and click the Code tab at the top. Choose Local, click Select folder, and pick the token-wars-giveaway folder."
+    }
+  ],
+  "paste": {
+    "title": "Paste these setup instructions",
+    "text": "Paste this into the chat and send it. The tool starts Token Wars for you. If it asks permission to run something, say yes.",
+    "setup": "Please start Token Wars for me. It is in this folder. Follow the setup guide in this folder, the file called SETUP, and start it the way the guide describes, so it keeps running in its own window. If a program it needs is missing, tell me in plain words how to install it and wait for me. When it is running, tell me the web address to open. Do not change, create, or delete any files, and do not ask me for my API key. I will paste the key into the Token Wars page myself."
+  },
+  "key": {
+    "title": "Add your key",
+    "text": "Token Wars opens in your web browser. On the Your setup screen, paste your Anthropic API key and your own AI instructions. No key yet? Create one at console.anthropic.com under API Keys. The key stays in that browser tab only, is never saved, and only goes to Anthropic."
+  },
+  "resources": {
+    "title": "Tools",
+    "text": "Thanks for attending Token Wars. A few more tools and resources to keep using afterward \u2014 RootIQ MCP spots are limited, so grab yours before they're gone!",
+    "items": [
+      { "name": "RootIQ MCP", "blurb": "Talk to your advertising data", "linkText": "RootIQ.ai", "href": "https://rootiq.ai", "qr": "/assets/qr-rootiq.png" },
+      { "name": "Token Wars", "blurb": "AI cost savings tool", "linkText": "tinyurl.com/TokenWars", "href": "https://tinyurl.com/TokenWars", "qr": "/assets/qr-tokenwars.png" },
+      { "name": "Get Help", "blurb": "Free 30-minute consultation", "linkText": "tinyurl.com/FreeTime26", "href": "https://tinyurl.com/FreeTime26", "qr": "/assets/qr-gethelp.png" }
+    ]
+  }
+}

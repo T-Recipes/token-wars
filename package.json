@@ -1,0 +1,19 @@
+{
+  "name": "token-wars-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Stage demo showing what AI token consumption costs. No dependencies; needs Node 20+.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "mock": "node server.js --mock",
+    "check": "node scripts/check-api.js",
+    "test": "node --test test/*.test.js",
+    "check:layout": "node scripts/check-layout.js",
+    "package:giveaway": "node scripts/package-giveaway.js",
+    "package:public": "node scripts/package-public.js",
+    "watch": "node watch/server.js"
+  }
+}
